@@ -254,33 +254,13 @@ header {
     margin: 2px 150px;
 }
 
-#yt {
-    padding-top: 120px;
-	padding-bottom: 120px;
-	text-align: center;
-    background-color: #b8def3;
-}
-
-#yt h2 {
-	font-size: 56px;
-	margin-bottom: 20px;
-    color: #1f1f1f;
-    font-weight: 750;
-
-}
-
-#yt p {
-	font-size: 18px;
-	line-height: 1.5;
-	margin-bottom: 30px;
-}
 
 .hero2 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.63);
     margin-bottom: 80px;
     padding: 90px 0;
     position: relative;
