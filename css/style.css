@@ -124,7 +124,7 @@ header {
     .navbar{
         position: absolute;
         width: 270px;
-        height: 12.5vh;
+        height: 160px;
         top: 100%;
         right: -100%;
         background: var(--main-color);
@@ -155,22 +155,6 @@ header {
     }
     
 }
-
-/* .container {
-    width: 100%;
-    margin: 0, auto;
-    margin-bottom: 0px;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    
-} */
-
-
-
-
-
- /* Style the navigation bar */
 
 
 .end {
@@ -215,6 +199,37 @@ header {
 
 /* ------------------------------------------------------------------------------------------------------------------ */
 /* index HOME */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  input[type=text] {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  button[type=submit] {
+    padding: 10px;
+    background-color: #ffae51;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  input[type=text]:focus {
+    outline: none;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #ff6600;
+    transition: all .50s ease;
+  }
+  
 
 .text {   
 
