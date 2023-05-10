@@ -261,7 +261,7 @@ header {
   .container {
     display: flex;
     flex-wrap: wrap;
-    background-color: #f1f1f1;
+    background-color: #f7f7f7;
     align-items: center
   }
   
@@ -290,7 +290,7 @@ header {
     padding-right: 0; 
   }
   
-  img {
+  .reviewpic {
     max-width: 100%;
     height: auto;
     padding-top: 0px;
@@ -300,25 +300,67 @@ header {
 /* --------------------------------------------- */
 
 .key {
+    padding: 110px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    width: 30%;
+    margin-right: 2%;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .caption {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  
+  .caption h2 {
     margin: 0;
-    padding: 400px;
-}
-
-#middle {
-    padding: 90px;
-    padding-bottom: 150px;
-    text-align: center;
-
-}
-
-#middle h5 {
-    font-size: 30px;
-    padding-bottom: 20px;
-    color: #4d4d4d;
-}
-
-#middle p{
-    font-size: 15px;
-    color: #646464;
-    margin-top: -1%;
-}
+    font-size: 1.2em;
+  }
+  
+  .caption p {
+    margin: 0;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+  
+  .button1 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .button1 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .image-wrapper:hover {
+    transform: translateY(-4%);
+    transition: all 0.4s ease-in-out;
+  }
